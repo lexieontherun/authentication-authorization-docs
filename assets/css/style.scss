@@ -3,17 +3,20 @@
 
 @import "{{ site.theme }}";
 
-.sidebar nav a {
-  white-space: nowrap;
+.sidebar a {
+  display: block;
+  padding: 4px 8px;
+  border-left: 3px solid transparent;
 }
 
 .sidebar a.active {
-  font-weight: 600;
   color: #0366d6;
+  border-left: 3px solid #0366d6;
+  background: rgba(3,102,214,0.06);
 }
 
-.sidebar a.active::before {
-  content: "• ";
+.sidebar a:hover {
+  background: rgba(0,0,0,0.04);
 }
 
 .mermaid {
