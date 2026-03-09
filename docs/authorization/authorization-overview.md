@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # Authorization Overview
 
 Authorization determines what resources an authenticated user is allowed to access.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # Authentication Flow
 
 ```mermaid

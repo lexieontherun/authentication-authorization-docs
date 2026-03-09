@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # Policy-Based Access Control (PBAC)
 
 Policy-Based Access Control enforces access rules defined in system policies.

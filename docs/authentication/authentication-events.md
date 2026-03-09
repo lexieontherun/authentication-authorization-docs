@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # Authentication Events
 
 Authentication events represent recorded login attempts within a system.

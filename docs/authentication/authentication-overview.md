@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # Authentication Overview
 
 Authentication is the process of verifying a user's identity before granting access to a system.

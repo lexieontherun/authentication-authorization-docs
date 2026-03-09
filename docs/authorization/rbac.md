@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # Role-Based Access Control (RBAC)
 
 Role-Based Access Control assigns permissions based on predefined user roles.

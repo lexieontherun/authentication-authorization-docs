@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # OAuth 2.0 Authorization
 
 OAuth 2.0 is a widely used authorization framework that allows applications to access resources on behalf of a user.

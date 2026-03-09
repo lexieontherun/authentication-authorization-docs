@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+      .site-wrapper {
+        display: flex;
+        min-height: 100vh;
+      }
+
+      .sidebar {
+        width: 280px;
+        padding: 2rem 1.5rem;
+        border-right: 1px solid #e5e5e5;
+        position: sticky;
+        top: 0;
+        align-self: flex-start;
+        height: 100vh;
+        overflow-y: auto;
+        box-sizing: border-box;
+      }
+
+      .sidebar h2 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-size: 1.25rem;
+      }
+
+      .sidebar p {
+        margin-top: 0;
+        font-size: 0.95rem;
+      }
+
+      .sidebar nav ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+      }
+
+      .sidebar nav li {
+        margin: 0.35rem 0;
+      }
+
+      .sidebar nav .nav-section {
+        margin-top: 1.25rem;
+        font-weight: 600;
+      }
+
+      .content {
+        flex: 1;
+        padding: 2rem 3rem;
+        max-width: 900px;
+      }
+
+      .content img {
+        max-width: 100%;
+      }
+
+      @media (max-width: 900px) {
+        .site-wrapper {
+          flex-direction: column;
+        }
+
+        .sidebar {
+          width: 100%;
+          height: auto;
+          position: relative;
+          border-right: none;
+          border-bottom: 1px solid #e5e5e5;
+        }
+
+        .content {
+          padding: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <aside class="sidebar">
+        <h2><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h2>
+        <p>{{ site.description }}</p>
+
+        <nav>
+          <ul>
+            <li class="nav-section">Home</li>
+            <li><a href="{{ '/' | relative_url }}">Overview</a></li>
+
+            <li class="nav-section">Concepts</li>
+            <li><a href="{{ '/docs/introduction' | relative_url }}">Introduction</a></li>
+            <li><a href="{{ '/docs/authentication/authentication-overview' | relative_url }}">Authentication Overview</a></li>
+            <li><a href="{{ '/docs/authorization/authorization-overview' | relative_url }}">Authorization Overview</a></li>
+            <li><a href="{{ '/docs/comparison/authentication-vs-authorization' | relative_url }}">Authentication vs Authorization</a></li>
+
+            <li class="nav-section">Authentication</li>
+            <li><a href="{{ '/docs/authentication/authentication-policies' | relative_url }}">Authentication Policies</a></li>
+            <li><a href="{{ '/docs/authentication/authentication-events' | relative_url }}">Authentication Events</a></li>
+            <li><a href="{{ '/docs/authentication/authentication-methods' | relative_url }}">Authentication Methods</a></li>
+
+            <li class="nav-section">Authorization</li>
+            <li><a href="{{ '/docs/authorization/rbac' | relative_url }}">RBAC</a></li>
+            <li><a href="{{ '/docs/authorization/abac' | relative_url }}">ABAC</a></li>
+            <li><a href="{{ '/docs/authorization/pbac' | relative_url }}">PBAC</a></li>
+            <li><a href="{{ '/docs/authorization/oauth' | relative_url }}">OAuth 2.0</a></li>
+
+            <li class="nav-section">Reference</li>
+            <li><a href="{{ '/diagrams/authentication-flow' | relative_url }}">Authentication Flow Diagram</a></li>
+            <li><a href="{{ '/examples/api-authentication-example' | relative_url }}">API Authentication Example</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="content">
+        {{ content }}
+      </main>
+    </div>
+  </body>
+</html>

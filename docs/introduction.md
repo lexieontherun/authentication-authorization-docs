@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # Introduction
 
 Modern applications require robust access management to protect sensitive resources and user data.

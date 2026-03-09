@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # Authentication vs Authorization
 
 Authentication and authorization are often confused but serve different purposes.

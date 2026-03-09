@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # Authentication Policies
 
 Authentication policies define the security rules that determine how users must authenticate.

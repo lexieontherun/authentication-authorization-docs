@@ -1,3 +1,8 @@
+---
+layout: default
+title: Authentication and Authorization Guide
+---
+
 # Authentication Methods
 
 Authentication methods verify user identity using different forms of credentials.
