@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Authentication and Authorization Guide
+title: Authorization Overview
 ---
 
 # Authorization Overview

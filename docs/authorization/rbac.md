@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Authentication and Authorization Guide
+title: Role-Based Access Control (RBAC)
 ---
 
 # Role-Based Access Control (RBAC)

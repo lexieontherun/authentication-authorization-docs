@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Authentication and Authorization Guide
+title: Policy-Based Access Control (PBAC)
 ---
 
 # Policy-Based Access Control (PBAC)

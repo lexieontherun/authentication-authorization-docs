@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Authentication and Authorization Guide
+title: OAuth 2.0 Authorization
 ---
 
 # OAuth 2.0 Authorization

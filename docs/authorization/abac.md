@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Authentication and Authorization Guide
+title: Attribute-Based Access Control (ABAC)
 ---
 
 # Attribute-Based Access Control (ABAC)

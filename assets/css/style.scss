@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.sidebar a.active {
+    font-weight: 600;
+    color: #0366d6;
+  }
+  
+  .sidebar a.active::before {
+    content: "• ";
+  }
