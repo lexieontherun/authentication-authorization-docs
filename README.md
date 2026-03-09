@@ -87,12 +87,12 @@ The documentation is organized into several core modules.
 
 ---
 
-## Documentation Approach
+## What This Project Demonstrates
 
-This project demonstrates documentation best practices:
+This project demonstrates documentation practices used in modern technical writing, including:
 
-- modular documentation structure
-- developer-friendly navigation
-- Markdown-based docs-as-code workflow
-- diagram-supported explanations
-- developer-oriented documentation organization
+- structuring developer documentation
+- documenting authentication and authorization systems
+- creating diagrams to explain system workflows
+- organizing documentation using a modular docs-as-code approach
+- publishing documentation with GitHub Pages

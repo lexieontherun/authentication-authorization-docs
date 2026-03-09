@@ -107,12 +107,16 @@ Readers new to the topic can follow this sequence:
 
 # About This Project
 
-This repository demonstrates documentation practices commonly used in modern technical writing, including:
+This documentation demonstrates common practices used in modern technical writing.
 
-- modular documentation structure  
-- Markdown-based documentation  
-- diagram-supported explanations  
-- developer-focused content organization  
-- docs-as-code workflow  
+The project is structured using a **docs-as-code approach**, where documentation is written, versioned, and published using developer tools and workflows.
 
-This project is intended as a **technical writing portfolio example showing how authentication and authorization systems can be documented clearly for technical audiences.**
+The documentation illustrates how authentication and authorization systems can be explained clearly through:
+
+- structured developer documentation
+- modular content organization
+- diagram-supported explanations
+- Markdown-based documentation
+- a published documentation site using GitHub Pages
+
+This project is intended as a **technical writing portfolio example demonstrating how complex security concepts can be documented for technical audiences.**
